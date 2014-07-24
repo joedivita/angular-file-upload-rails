@@ -27,3 +27,10 @@ Lastly, be sure to include it in your JavaScript manifest (e.g. `application.js`
 ```
 \* *be sure that angular is required before angular-file-upload*
 
+**Important**: According to the angular-file-upload readme, if you wish to use the shim to support upload progress / abort for HTML5 and non-HTML5 FormData browsers, the shim javascript file must be included *before* angular.js, while the regular angular-file-upload being required after angular.  For example in `application.js`:
+
+```
+//= require angular-file-upload/angular-file-upload-shim
+//= require angular
+//= require angular-file-upload
+```
