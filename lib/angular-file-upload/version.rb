@@ -1,3 +1,3 @@
 module AngularFileUpload
-  VERSION = '1.2.8'
+  VERSION = '1.6.1'
 end
