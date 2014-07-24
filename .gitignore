@@ -1,0 +1,7 @@
+*.gem
+.ruby-gemset
+.ruby-version
+.DS_Store
+Gemfile.lock
+tmp/*
+!.keep
