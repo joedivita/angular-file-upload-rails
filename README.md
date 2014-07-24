@@ -25,5 +25,5 @@ Lastly, be sure to include it in your JavaScript manifest (e.g. `application.js`
 ```
 //= require angular-file-upload
 ```
-\**be sure that angular is required before angular-file-upload*
+\* *be sure that angular is required before angular-file-upload*
 
